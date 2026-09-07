@@ -40,3 +40,8 @@ ignoreUntil = 2026-10-28
 # lint toolchain; the prod-reachable 5.x line is pinned to the fixed 5.0.8. Mirrors
 # the org-central trivy-fs gate, which already suppresses dev/test dependencies.
 reason = "brace-expansion 1.1.15 reachable only via dev-only ESLint toolchain (minimatch@3.1.5); the 1.1.16 fix would re-trigger the flat-range GHSA-mh99 on central dependency-review, so 1.x is pinned base-exact and both dev-only advisories are ignored."
+
+[[IgnoredVulns]]
+id = "GHSA-ggr8-5vv4-36mx"
+ignoreUntil = 2026-10-28
+reason = "deepmerge-ts is not a prod issue"
