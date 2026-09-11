@@ -24,7 +24,7 @@
       "js-yaml": "4.3.1",
       "nanoid": "3.3.18",
       "@auth/core": "^0.41.3",
-      "sharp": "^0.35.3",
+      "sharp": "0.35.4",
       "postcss": "^8.5.18",
       "brace-expansion@1": "1.1.15",
       "brace-expansion@2": "2.1.2",
@@ -34,7 +34,11 @@
       "undici": "^7.29.0",
       "minimatch": "^10.0.0",
       "@hono/node-server": "^2.0.5",
-      "body-parser": "^2.3.0"
+      "body-parser": "^2.3.0",
+      "next": "15.5.25",
+      "deepmerge-ts": "8.0.2",
+      "browserslist": "4.28.9",
+      "baseline-browser-mapping": "2.11.22"
     }
   }
 }
